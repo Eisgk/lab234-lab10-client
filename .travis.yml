@@ -10,7 +10,6 @@ before_install:
 - npm i -D uglifyjs-webpack-plugin
 install:
 - npm install
-- npm start
 - npm run ng-deploy
 - ls -l
 script:
